@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ShopContext } from "../context";
 
 const CartItem = (props) => {
-    const {mainId, price, quantity, displayName, changeOrder} = props;
+    const {mainId, price, quantity, displayName} = props;
+    const {changeOrder} = useContext(ShopContext);
  
     const removeItemFromOrder = () => {
         changeOrder(mainId, 0);

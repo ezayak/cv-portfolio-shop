@@ -1,6 +1,6 @@
 {
   "name": "shop",
-  "home": "https://ezayak.github.io/cv-portfolio-shop/",
+  "homepage": "https://ezayak.github.io/cv-portfolio-shop/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
